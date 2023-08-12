@@ -5,7 +5,7 @@ function introduction(name){
     }
 
 
-    function introductionWithLanguage (name, language=JavaScript){
+    function introductionWithLanguage (name, language="JavaScript"){
 
         return (`Hi, my name is ${name} and I am learning to program in ${language}.`)
         
@@ -13,17 +13,25 @@ function introduction(name){
 
 
 
+
+
+        function introductionWithLanguageOptional (name, language="JavaScript"){
+             
+         
+            
+            return (`Hi, my name is ${name} and I am learning to program in ${language}.`)
+            
+            
+
+           }
+
       
-
-        function introductionWithLanguageOptional(name, language=JavaScript){
-
-            return (`Hello, ${name} + ${language}!`)
-            
-            }
-            
+        
+        
 
 
-    function introductionWithLanguageOptional (name, language=JavaScript){
+
+    function introductionWithLanguageOptional (name, language="JavaScript"){
 
          return (`Hi, my name is ${name} and I am learning to program in ${language}.`)
                 
